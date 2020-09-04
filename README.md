@@ -1,8 +1,12 @@
 # Flutter仿QQ界面
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
-
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
 # 屏幕截图
-![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)  
+![](https://github.com/aa286211636/Flutter_QQ/blob/master/screenshot/1.png)  
+![](https://github.com/aa286211636/Flutter_QQ/blob/master/screenshot/2.png)  
+![](https://github.com/aa286211636/Flutter_QQ/blob/master/screenshot/3.png)  
+![](https://github.com/aa286211636/Flutter_QQ/blob/master/screenshot/4.png)  
+![](https://github.com/aa286211636/Flutter_QQ/blob/master/screenshot/5.png)  
+![](https://github.com/aa286211636/Flutter_QQ/blob/master/screenshot/6.png)  
+![](https://github.com/aa286211636/Flutter_QQ/blob/master/screenshot/7.png)  
