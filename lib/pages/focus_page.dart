@@ -7,7 +7,6 @@ import 'package:ftoast/ftoast.dart';
 import 'package:metashare_flutter/utils/screen.dart';
 import 'package:metashare_flutter/video/chewie_video_custom.dart';
 
-
 class FocusPage extends StatefulWidget {
   FocusPage({Key key}) : super(key: key);
 
@@ -24,6 +23,7 @@ class _FocusPageState extends State<FocusPage>
   @override
   void initState() {
     super.initState();
+    _currentIndex = 0;
     _titles = ['关注', '推荐', '视频', '好友', '小说', '热点', '科技'];
     _tabController =
         TabController(length: _titles.length, vsync: ScrollableState());
@@ -149,7 +149,8 @@ class _FocusPageState extends State<FocusPage>
         children: [
           Container(
             width: Screen.width(context) - 20,
-            child: ChewieVideoCustom('https://www.runoob.com/try/demo_source/mov_bbb.mp4'),
+            child: ChewieVideoCustom(
+                'https://www.runoob.com/try/demo_source/mov_bbb.mp4'),
           ),
           Container(
             width: Screen.width(context) - 20,
@@ -176,6 +177,7 @@ class _FocusPageState extends State<FocusPage>
     return Scaffold(
       appBar: AppBar(
         title: buildSearch(),
+        titleSpacing: -15,
         bottom: buildTabBar(context),
       ),
       body: SingleChildScrollView(
