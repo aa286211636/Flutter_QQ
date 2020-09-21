@@ -4,7 +4,7 @@ import 'package:metashare_flutter/pages/theme_page.dart';
 
 //配置路由
 final routers = {
-  '/': (context, {arguments}) => Tabs(),
+  '/tab': (context, {arguments}) => Tabs(),
   '/theme_page': (context, {arguments}) => ThemePage(),
 
 };

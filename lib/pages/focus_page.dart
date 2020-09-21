@@ -177,7 +177,7 @@ class _FocusPageState extends State<FocusPage>
     return Scaffold(
       appBar: AppBar(
         title: buildSearch(),
-        titleSpacing: -15,
+        titleSpacing: 0,
         bottom: buildTabBar(context),
       ),
       body: SingleChildScrollView(

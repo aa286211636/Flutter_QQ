@@ -3,6 +3,7 @@ import 'views/tabs.dart';
 import 'package:provider/provider.dart';
 import 'providers/provider_manager.dart';
 import 'routers/routers.dart';
+import 'pages/login_page.dart';
 
 void main() {
   //注册监听
@@ -20,7 +21,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Tabs(),
+      home: LoginPage(),
       debugShowCheckedModeBanner: false,
       theme: Provider.of<ThemeProvider>(context).theme,
       onGenerateRoute: onGenerateRoute,
